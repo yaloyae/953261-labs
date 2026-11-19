@@ -1,0 +1,10 @@
+# Dependencies — never commit these, npm install recreates them
+node_modules/
+
+# Secrets — never commit these (Week 12: environment variables)
+.env
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
