@@ -18,12 +18,12 @@ const server = http.createServer((req, res) => {
 
   if (req.method === "GET" && req.url === "/") {
     res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
-    res.end("<h1>Hello, 953261!</h1><p>My name is ______ (student ID ______)</p>");
+    res.end("<h1>Hello, 953261!</h1><p>My name is Nuttawat Chumpee (student ID 692115014)</p>");
     return;
   }
 
-  // TODO: add GET /api/me here
-
+  // TODO: add GET /api/me here// TODO: add GET /api/me here
+  
   // TODO: replace this with a proper 404 response
   res.writeHead(200, { "Content-Type": "text/plain" });
   res.end("Not done yet");
