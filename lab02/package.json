@@ -1,0 +1,12 @@
+{
+  "name": "953261-lab02",
+  "version": "1.0.0",
+  "description": "953261 Lab 2 — Modern JavaScript: arrays of objects, array methods, modules",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "warmup": "node warmup.js",
+    "test": "node --test"
+  }
+}
